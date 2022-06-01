@@ -1,0 +1,16 @@
+{
+  "name": "data-structure",
+  "version": "0.0.1",
+  "description": "",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:cdguedez/data-structure-js.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Carlos Guedez <cdgr.ing@gmail.com>",
+  "license": "MIT"
+}
