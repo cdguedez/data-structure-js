@@ -24,4 +24,8 @@ Podemos acceder a la informacion de un string como si fuera un array, mas sin em
 
 ### Hash Tables
 
-los hash tables.
+los hash tables en javascript son muy similares a un Objeto, ya que manejan el conceptoo de key value, a diferencia de un hash table posee una hash function (se encarga de asignar un hash a partir de el key que pasemos).
+
+ventajas frente a un array es que podemos acceder a la informacion de forma mas rapida y manejar mejor el memory slot.
+
+Ahora bien podemos tener colisiones en los hash table, es decir, podemos tener dos key que se les asigne el mismo hash, lo ideal seria tener por hash un maximo de dos valores. poseen tres metodos que serian *insert*, *search* y *delete*.
