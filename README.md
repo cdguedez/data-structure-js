@@ -29,3 +29,19 @@ los hash tables en javascript son muy similares a un Objeto, ya que manejan el c
 ventajas frente a un array es que podemos acceder a la informacion de forma mas rapida y manejar mejor el memory slot.
 
 Ahora bien podemos tener colisiones en los hash table, es decir, podemos tener dos key que se les asigne el mismo hash, lo ideal seria tener por hash un maximo de dos valores. poseen tres metodos que serian *insert*, *search* y *delete*.
+
+[clase de hashtables](./src/hashTables/HashTables.js)
+
+### Linked List
+
+los linked list son simplemente un conjunto de nodos ordenados que contienen los valores que necesitemos (numbers, strings, boolean, etc). Cada uno tiene un valor y una referencia a un siguiente nodo. pueden tener los siguientes metodos.
+
+* prepend: agrega un nodo al inicio.
+* append: agrega un nodo al final.
+* Lookup/search: Busca un nodo.
+* insert: inserta un nodo en la lista.
+* delete: borra un nodo.
+
+Un singly linked list es aquella que en sus nodos están su valor actual y la relación con el siguiente, si deseamos acceder a un determinado valor debemos recorrer si o si todos los elementos anteriores para llegar al lugar deseado.
+
+[clase de Linked List](./src/linkedList/LinkedList.js)
